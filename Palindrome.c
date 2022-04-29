@@ -1,7 +1,8 @@
 #include <stdio.h>
-int main() {
+int main()
+{
   int n, reversed = 0, remainder, original;
-    scanf("%d", &n);
+  scanf("%d", &n);
     original = n;
     while (n != 0) {
         remainder = n % 10;
