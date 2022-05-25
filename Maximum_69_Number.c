@@ -2,7 +2,7 @@
 #include<math.h>
 int main()
 {
-    int n, d, r, flag=0;
+    int n,d,r,flag=0;
     scanf("%d",&n);
     d=(int)log10(n);
     while(n>0)
@@ -14,11 +14,9 @@ int main()
             flag=1;
         }
         else
-        
-            printf("%d",r);
-            n=n%(int)ceil(pow(10,d));
-            d--;
+        printf("%d",r);
+        n=n%(int)ceil(pow(10,d));
+        d--;
     }
-        return 0;
-    
+    return 0;
 }
